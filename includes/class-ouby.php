@@ -52,7 +52,6 @@ class Ouby {
 	 * @return null
 	 */
 	public function show_message() {
-
 		add_settings_field(
 	        'ouby',                      		// ID used to identify the field throughout the theme
 	        'Organize Uploads By Year',         // The label to the left of the option interface element
@@ -93,7 +92,7 @@ class Ouby {
 	    // $upload['subdir']   = '/' . $year . $upload['subdir'];
 	    // $upload['path'] = $upload['basedir'] . $upload['subdir'];
 	    // $upload['url']  = $upload['baseurl'] . $upload['subdir'];
-		$uploads_dir_data['subdir'] = self::get_the_year_from_uploads_subdir( $uploads_dir_data['subdir'] );
+		$uploads_dir_data['subdir'] = $this->get_the_year_from_uploads_subdir( $uploads_dir_data['subdir'] );
 		$uploads_dir_data['path']   = $uploads_dir_data['basedir'] . $uploads_dir_data['subdir'];
 		$uploads_dir_data['url']    = $uploads_dir_data['baseurl'] . $uploads_dir_data['subdir'];
 		return $uploads_dir_data;
@@ -116,7 +115,6 @@ class Ouby {
 	 */
 	public function get_the_year_from_uploads_subdir( $subdir, $suffix = '/' ) {
 		$dir_parts = explode( '/', trim( $subdir ) );
-		// trace($dir_parts);
 		if ( empty( $dir_parts ) ) {
 			return '';
 		}
