@@ -10,15 +10,15 @@
  * @wordpress-plugin
  * Plugin Name:        Organize Uploads By Year
  * Description: 	   Organize WP media uploads by wp-content/{year}/{filename.ext}. Be sure you want this as your upload directory structure, once you start using this plugin it's not easy to go back!
- * Plugin URI:         TBD
+ * Plugin URI:         https://github.com/JiveDig/organize-uploads-by-year
  * Author:             Mike Hemberger
  * Author URI:         http://thestizmedia.com
  * Text Domain:        ouby
  * License:            GPL-2.0+
  * License URI:        http://www.gnu.org/licenses/gpl-2.0.txt
  * Version:            1.0.0
- * GitLab Plugin URI:  TBD
- * GitLab Branch:	   master
+ * GitHub Plugin URI:  https://github.com/JiveDig/organize-uploads-by-year
+ * GitHub Branch:	   master
  */
 
 // If this file is called directly, abort.
