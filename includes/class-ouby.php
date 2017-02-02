@@ -5,7 +5,7 @@
  * @package   Ouby
  * @author    Mike Hemberger <mike@bizbudding.com.com>
  * @author    Tonya Mork <hellofromtonya@thewpdc.com>
- * @link      https://github.com/JiveDig/wampum/
+ * @link      https://github.com/JiveDig/organize-uploads-by-year/
  * @copyright 2016 Mike Hemberger
  * @license   GPL-2.0+
  */
